@@ -2,3 +2,117 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --accent-color: #ff0070;
+  --title-color: #DB00FF;
+  --main-text-color-dark: #F1B2CE;
+  --subtitle-dark: #000028;
+  --font-size-all: 18px;
+  --font-family-all: "IBM Plex Mono";
+
+}
+
+.theme_auto {
+  --accent-color: #ff0070;
+  --title-color: #DB00FF;
+  --main-text-color: #F1B2CE;
+  --subtitle-dark: #000028;
+}
+
+
+.theme_auto .sub_sub-title {
+
+  background-color: var(--accent-color);
+  color: var(--subtitle-dark);
+}
+
+
+.theme_auto .header__theme-menu-button {
+  color: var(--accent-color);
+
+}
+
+.theme_auto .title {
+
+
+  color: var(--title-color);
+  text-shadow: 4px 4px 0px var(--accent-color);
+
+
+}
+
+.theme_auto .header__text {
+  color: var(--subtitle-dark);
+
+  background-color: var(--accent-color);
+}
+
+
+.theme_auto .sub_sub-title {
+  margin: 0;
+  background-attachment: var(--accent-color);
+  color: var(--subtitle-dark);
+}
+
+.gallery_title {
+
+  margin: 0;
+  color: var(--accent-color);
+}
+
+.theme_auto .link {
+
+  text-shadow: 2px 2px 0px var(--accent-color);
+
+}
+
+.theme_auto .link:focus {
+  outline: none
+}
+
+.theme_auto .link:hover {
+  border-bottom: 1px solid rgba(255, 0, 112, 0.40);
+
+}
+
+.theme_auto .link:focus-visible {
+  outline: 1px solid var(--main-text-color);
+}
+
+
+
+.theme_auto .header::before {
+
+
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+
+
+}
+
+.theme_auto .header::after {
+
+
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+
+
+}
+
+.theme_auto .footer::before {
+
+
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+
+
+}
+
+.theme_auto .footer::after {
+
+
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+
+
+}
